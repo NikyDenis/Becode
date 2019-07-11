@@ -1,0 +1,65 @@
+
+body {
+ /*font-family: 'Indie Flower', cursive;*/
+ /*font-family: 'Dancing Script', cursive;*/
+ font-family: 'Comfortaa', cursive;
+ /*font-family: 'Great Vibes', cursive;*/
+
+ /*background: linear-gradient(90deg, rgb(200, 200, 200), rgb(69, 71, 74));
+ opacity:0.5;*/
+
+ background-image:url("wall.jpg");
+ background-position: bottom right;
+ background-size: cover;
+ background-repeat:no-repeat;
+ width: 90%;
+ margin:auto;
+}
+
+p{
+ font-size:18px;
+ color:#000;
+}
+blockquote{
+ font-family : 'Great Vibes', cursive;
+ font-size:20px;
+}
+.cit{
+ font-size:28,8px;
+ margin:auto;
+ /*padding: 30px 30px 80px 80px;*/
+}
+.gens{
+ font-style:italic;
+ border-left:3px solid green;
+ background:rgba(50,50,50,0.3);
+ padding: 30px 30px 80px 80px;
+ display:inline block;
+}
+.fermier{
+ font-style:italic;
+ border-left:3px solid red;
+ background:rgba(122,18,50,0.3);
+}
+.bien{
+ color:rgb(0,204,154);
+font-style:bold;
+text-shadow:1px 0px 0px #000;
+}
+.mal{
+ color:rgb(126,0,10);
+ font-style:bold;
+}
+
+
+table, th{
+ border: 2px solid black;
+}
+.pied{
+ font-size:10px;
+ font-style:italic;
+ background-color:rgba(8,30,27,0.3);
+ color : #fff;
+} 
+
+

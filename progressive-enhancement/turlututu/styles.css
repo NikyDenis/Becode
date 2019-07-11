@@ -1,0 +1,100 @@
+body {
+  font-family:'Sarabun', sans-serif ;
+  background-color: #fff;
+  margin: 0;
+}
+#menu {
+  display: flex;
+  background: black;
+  color: white;
+}
+.milieu{
+    display: flex;
+    
+}
+.colone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.bouton{
+    background-color: #e99002;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.centre{
+    text-align: center;
+    font-weight: bold;
+}
+.marge {
+  padding: 10px;
+}
+.blanc {
+  background-color: #fff;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+.blue {
+  background-color: #1e93cc;
+}
+.grille {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  padding: 50px;
+  border: 2px solid #1e93cc;
+  border-radius: 5px;
+  background-color: #1e93cc;
+  line-height: 35px;
+}
+* {
+  box-sizing: border-box;
+}
+.grille > div {
+  border: 2px solid #1e93cc;
+  border-radius: 5px;
+  background-color: #1e93cc;
+  padding: 1em;
+  color: #fff;
+  text-align: justify;
+}
+.bas {
+  display: flex;
+  background: black;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.bouh {
+  margin-right: auto;
+}
+.right-menu {
+  margin-right: auto;
+}
+.click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+button.gauche{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+button.middle{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+button.droite{
+    background-color: #e99002;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}

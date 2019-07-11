@@ -1,0 +1,50 @@
+body, input{
+    font-family: 'Jua', sans-serif;
+    align-content: center;
+    text-decoration: none;
+}
+#titre{
+    font-family: 'Chewy', cursive;
+    text-align: center;
+}
+#fait{
+    /* font-family: 'Cabin Sketch', cursive; */
+     /* font-family: 'Nanum Pen Script', cursive; */
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+}
+#description{
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    font-size:14px;
+}
+section{
+    width: 800px;
+    text-align: left;
+    border-radius: 4px;
+    border: solid 1px;
+}
+#liste{
+    /* font-family: 'Poiret One', cursive; */
+    font-family: 'Leckerli One', cursive;
+    overflow: scroll;
+    height: 300px;
+}
+#bouton{
+    background-color: #303030;
+    border-radius: 5px;
+    color: #fff;
+    padding: 4px;
+
+}
+#archives{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    text-decoration:line-through;
+    overflow: scroll;
+    height: 100px;
+}
+
+.pasbouger{
+    text-decoration: none!important;
+}

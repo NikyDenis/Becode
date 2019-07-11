@@ -1,0 +1,53 @@
+body{
+    font-family: 'Annie Use Your Telescope', cursive;
+    widows: 100%;
+    background: url(sakura2.gif) no-repeat;
+    background-size: cover;
+ 
+}
+.center{
+    /* position:absolute; */ 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
+    display: block;
+    line-height:1;
+}
+
+h1{
+    font-size: 73px;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+    margin-bottom: 10px;
+}
+p{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: italic;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.assis{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+input{
+    border-radius: 10px;
+    border:2px solid rgba(255, 192, 203, 0.603);
+    font-family: 'Annie Use Your Telescope', cursive;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: rgba(240, 248, 255, 0.253);
+    background: url(lycoris.gif) no-repeat;
+    background-size: cover;
+
+}

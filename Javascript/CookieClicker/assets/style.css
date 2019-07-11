@@ -1,0 +1,43 @@
+body{
+    font-family: 'Sniglet', cursive;
+    font-size: 25px;
+    background-color: rgba(255, 222, 74, 0.671);
+
+}
+#multiplier, #clic, #auto{
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(165, 80, 0);
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Sniglet', cursive;
+    font-size: 20px;
+
+}
+#clic{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+#affichage, #name{
+    text-align: center;
+    
+}
+
+#bonus{
+    font-family: 'Sniglet', cursive;
+    height: 50px;
+    color: rgb(204, 204, 204);
+    background-color: blueviolet;
+    border-radius: 20px;
+    box-shadow: 1px;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

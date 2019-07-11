@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    color: white;
+}
+@media screen and (max-width:300px){ /*ecran petit */
+    .small{
+        background-color: red;
+        font-size:18px;
+    }
+    .large{
+        /* display: none; */
+        background-color: blue;
+    }
+    .medium{
+        /* display: none; */
+        background-color: green;
+    }
+    [class*="colo"]{width: 100%;}
+}
+@media screen and (min-width:301px) and (max-width:767px){ /*Ecran moyen*/
+    .medium{
+        background-color: green;
+        font-size: 40px;
+        width:33%;
+    }  
+    .small{
+        width:66%;
+        background: red;}
+    .large{
+        width:100%;
+        background: blue;
+    }
+}
+@media screen and (min-width:768px){
+    .large{
+        background-color: blue;
+        font-size: 60px;
+        width: auto;
+        display: flex;
+    }
+    .small{
+        background: red;
+        width: auto;
+    }
+    .medium
+    {
+    background: green;
+    width: auto;
+    }
+}
+

@@ -1,0 +1,20 @@
+$color: blue;
+$Comfortaa: "Comfortaa", cursive;
+$align: center;
+$fond: yellow;
+
+@mixin boite($width:600px) {
+background: $fond;
+width: $width;
+display: block;
+margin-left: auto;
+margin-right: auto;
+color: $color;
+font-family: $Comfortaa;
+text-align: $align;
+border-radius: 15px;
+}
+.bite {
+  @include boite();
+}
+/*MES COUILLES EN SACHET*/

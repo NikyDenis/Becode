@@ -1,0 +1,62 @@
+
+body {
+ /*font-family: 'Comfortaa', cursive;*/
+ /*font-family: 'Dosis' , sans-serif;*/
+ font-family: 'Handlee', cursive;
+ line-height:1.5;
+ color:#061F1C;
+ max-width: 90%;
+ margin:auto;
+ font-size:18px;
+ background:url("zen.jpg") no-repeat;
+ background-position:bottom;
+ background-size:cover;
+}
+a{
+ color:#034B42;
+}
+a:visited{
+ color:#8561C8;
+}
+a:hover{
+ color:#51C11E;
+}
+blockquote{
+ margin:auto;
+ border-left:3px solid #FE3800;
+ background-color:rgba(50,50,50,0.3);
+ padding-left:30px;
+ font-size:28.8px;
+ padding-top:80px;
+ padding-bottom:80px;
+ max-width:50%;
+}
+h2{
+background-color:yellow;
+width:90%;
+}
+
+span{
+ text-transform:capitalize;
+}
+.bien{
+ color:green;
+}
+.mal{
+ color:red;
+}
+q{
+ font-style:italic;
+ background-color:rgba(191,163,155,0.5);
+}
+.fermier{
+ border-left:3px solid blue;
+}
+.paysan{
+ border-left:3px solid yellow;
+}
+table, th, td{
+ border-collapse:collapse;
+ border:2px solid black;
+ padding:20px;
+}

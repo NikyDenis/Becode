@@ -1,0 +1,25 @@
+body{
+    font-family: 'Comfortaa', cursive;
+}
+ol{
+    color: blue;
+    font-family: 'Josefin Slab', serif;
+    text-align: left;
+}
+h1{
+    text-align: center;
+}
+.gif{
+    border-radius: 10px;
+
+}
+.tableau{
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    border-radius: 5px;
+}
+.block{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
