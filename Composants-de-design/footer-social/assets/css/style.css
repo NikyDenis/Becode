@@ -1,0 +1,41 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    width: 100%;
+    color: rgb(163, 163, 163);
+}
+#pied{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(202, 202, 202, 0.568);
+    position: absolute;
+    bottom: 0;
+}
+.play{
+    flex:3;
+}
+.term{
+    flex: 1;
+}
+.icone{
+    flex: 1;
+    align-self: space-between;
+}
+/* .play{
+     align-self: flex-start;
+     padding: 10px;
+     flex: 3;
+ }
+
+.icone{
+    flex: 1;
+    align-self: flex-end;
+    padding-right: 10px;
+} */
+
+.icone i{
+    color: rgb(163, 163, 163);
+    padding: 10px;
+}

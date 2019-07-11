@@ -1,0 +1,31 @@
+.bas{
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+ul.pagination li a.active {
+    background-color: #129fea;
+    color: white;
+}
+ul.pagination li a.white{
+    background-color: white;
+    color: black;
+}
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.pagination li {display: inline;}
+ul.pagination li a{
+    text-decoration: none;
+    color:white;
+    background-color: #3b444f;
+    border-radius: 15px;;
+    padding:20px 30px;
+
+
+}
